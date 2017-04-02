@@ -1,0 +1,15 @@
+        ORG 100000
+        MOVE 10, r0
+lab_5   MOVE 20, r1
+        ADD r0, r1, r3
+
+        MOVE %h 12aC, sr
+        ADD r0, r1,r6
+        LOAD r5, (3000a)
+553_    JP_EQ lab_5 ; 4324fdscf
+
+    ; fds4fxvcx
+        Jrasda
+        Or Ma 1333
+   dfgdsg ds
+   __DA sda__da das_ r1_ _ _SGE

@@ -1,0 +1,91 @@
+Generated:			01-04-2017 16:46:23
+Assembling time		= 0.0 seconds
+
+TOKEN_TYPE			LINE	COLUMN	TOKEN
+
+line_1
+------------------------------------------
+PSEUDO_INSTRUCTION	1		9		ORG
+INTERMEDIATE_VALUE	1		13		100000
+
+line_2
+------------------------------------------
+INSTRUCTION			2		9		MOVE
+INTERMEDIATE_VALUE	2		14		10
+COMMA				2		16		,
+REGISTER			2		18		r0
+
+line_3
+------------------------------------------
+LABEL				3		1		lab_5
+INSTRUCTION			3		9		MOVE
+INTERMEDIATE_VALUE	3		14		20
+COMMA				3		16		,
+REGISTER			3		18		r1
+
+line_4
+------------------------------------------
+INSTRUCTION			4		9		ADD
+REGISTER			4		13		r0
+COMMA				4		15		,
+REGISTER			4		17		r1
+COMMA				4		19		,
+REGISTER			4		21		r3
+
+line_6
+------------------------------------------
+INSTRUCTION			6		9		MOVE
+INTERMEDIATE_BASE	6		14		%h
+LABEL				6		17		12aC
+COMMA				6		21		,
+STATUS_REGISTER		6		23		sr
+
+line_7
+------------------------------------------
+INSTRUCTION			7		9		ADD
+REGISTER			7		13		r0
+COMMA				7		15		,
+REGISTER			7		17		r1
+COMMA				7		19		,
+REGISTER			7		20		r6
+
+line_8
+------------------------------------------
+INSTRUCTION			8		9		LOAD
+REGISTER			8		14		r5
+COMMA				8		16		,
+LEFT_PAREN			8		16		(
+LABEL				8		19		3000a
+RIGHT_PAREN			8		24		)
+
+line_9
+------------------------------------------
+LABEL				9		1		553_
+INSTRUCTION			9		9		JP
+CONDITION			9		9		_EQ
+LABEL				9		15		lab_5
+
+line_12
+------------------------------------------
+LABEL				12		9		Jrasda
+
+line_13
+------------------------------------------
+INSTRUCTION			13		9		Or
+LABEL				13		12		Ma
+INTERMEDIATE_VALUE	13		15		1333
+
+line_14
+------------------------------------------
+LABEL				14		4		dfgdsg
+PSEUDO_INSTRUCTION	14		11		ds
+
+line_15
+------------------------------------------
+LABEL				15		1		__DA
+LABEL				15		9		sda__da
+LABEL				15		17		das_
+LABEL				15		22		r1_
+LABEL				15		22		_
+CONDITION			15		22		_SGE
+
